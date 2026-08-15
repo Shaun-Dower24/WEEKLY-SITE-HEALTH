@@ -1,0 +1,48 @@
+{
+  "site": "dower",
+  "url": "https://dower-digital.netlify.app",
+  "capturedAt": "2026-08-15",
+  "pages": {
+    "/": {
+      "configuredUrl": "/",
+      "statusCode": 200,
+      "title": "Dower Digital — Custom Websites and Managed SEO from Stevenage",
+      "metaDescription": "Dower Digital engineers custom websites, monthly maintenance and managed SEO retainers for businesses that need to be found, trusted and maintained properly.",
+      "h1Count": 8,
+      "jsonLdTypes": ["Organization"],
+      "canonical": "https://dower-digital.netlify.app/",
+      "hasContent": true
+    },
+    "/contact": {
+      "configuredUrl": "/contact",
+      "statusCode": 404,
+      "hasContent": false,
+      "note": "Real 404. Confirmed via llms.txt: contact is an anchor section on the homepage (https://dowerdigital.co.uk/#contact), not a separate route."
+    }
+  },
+  "crawlDirectives": {
+    "robotsTxt": {
+      "present": true,
+      "blocksMajorCrawlers": false,
+      "aiCrawlersAllowed": ["GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "anthropic-ai", "Claude-Web", "PerplexityBot", "Perplexity-User", "Google-Extended", "GoogleOther", "Applebot-Extended", "CCBot", "Bytespider"],
+      "sitemapDeclared": "https://dowerdigital.co.uk/sitemap.xml"
+    },
+    "sitemapXml": { "present": true, "urlCount": 6, "declaredOn": "dowerdigital.co.uk" },
+    "llmsTxt": { "present": true, "declaredOn": "dowerdigital.co.uk" }
+  },
+  "domainMismatch": {
+    "auditedUrl": "https://dower-digital.netlify.app",
+    "canonicalProductionDomain": "https://dowerdigital.co.uk",
+    "evidence": [
+      "robots.txt Sitemap directive points to dowerdigital.co.uk",
+      "sitemap.xml URLs are all on dowerdigital.co.uk",
+      "llms.txt content and all internal links reference dowerdigital.co.uk",
+      "dowerdigital.co.uk resolves 200 with a self-referential canonical tag",
+      "the netlify.app homepage's own canonical tag points to itself (dower-digital.netlify.app), inconsistent with its own og:url and llms.txt which point to dowerdigital.co.uk"
+    ],
+    "recommendation": "Update this routine's site config for 'dower' to https://dowerdigital.co.uk so future runs audit the canonical domain, not the Netlify deploy alias."
+  },
+  "searchConsole": { "status": "NONE", "reason": "gsc: NONE in routine config" },
+  "sentry": { "status": "NONE", "reason": "No per-site Sentry project bound to this site" },
+  "uptime": { "status": "NONE", "reason": "No UptimeRobot monitor configured for this site" }
+}
