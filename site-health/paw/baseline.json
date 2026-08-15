@@ -1,0 +1,35 @@
+{
+  "site": "paw",
+  "url": "https://positive-animal-wellbeing.netlify.app",
+  "capturedAt": "2026-08-15",
+  "pages": {
+    "/": {
+      "configuredUrl": "/",
+      "statusCode": 200,
+      "title": "Positive Animal Wellbeing",
+      "metaDescription": "Gentle, expert care for the animals we love.",
+      "h1Count": 6,
+      "jsonLdTypes": [],
+      "canonical": "https://positive-animal-wellbeing.netlify.app/#home",
+      "hasContent": true
+    },
+    "/contact": {
+      "configuredUrl": "/contact",
+      "statusCode": 404,
+      "hasContent": false,
+      "note": "Real 404 (Netlify default not-found page). Homepage H1 pattern (single narrative page with sections like 'Hello, I'm Christine') suggests this is a single-page site with an in-page contact section rather than a separate route, but no llms.txt exists to confirm the real anchor URL."
+    }
+  },
+  "crawlDirectives": {
+    "robotsTxt": { "present": false, "statusCode": 404 },
+    "sitemapXml": { "present": false, "statusCode": 404 },
+    "llmsTxt": { "present": false, "statusCode": 404 }
+  },
+  "domain": {
+    "customDomainDetected": false,
+    "note": "All metadata (canonical, og:image, favicon) self-references positive-animal-wellbeing.netlify.app. No evidence of a custom production domain."
+  },
+  "searchConsole": { "status": "NONE", "reason": "gsc: NONE in routine config" },
+  "sentry": { "status": "NONE", "reason": "No per-site Sentry project bound to this site" },
+  "uptime": { "status": "NONE", "reason": "No UptimeRobot monitor configured for this site" }
+}
