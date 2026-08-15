@@ -1,0 +1,64 @@
+{
+  "site": "arch",
+  "configuredUrl": "https://archcateringandrefrigeration.co.uk",
+  "runDate": "2026-08-15",
+  "pages": {
+    "/": {
+      "url": "https://archcateringandrefrigeration.co.uk/",
+      "statusCode": 200,
+      "title": "Commercial Kitchen Specialists | Arch Catering & Refrigeration Ltd",
+      "metaDescription": "UK wide installation, servicing and 24/7 reactive repairs for commercial kitchens and restaurants. Preventative maintenance plans from qualified engineers.",
+      "h1Count": 1,
+      "h1Texts": [
+        "Your Commercial Kitchen Specialists. Service, Maintenance, Repairs, New Equipment, Design and Projects."
+      ],
+      "jsonLdTypes": ["LocalBusiness", "LocalBusiness", "BreadcrumbList"],
+      "canonical": "https://archcateringandrefrigeration.co.uk/",
+      "isSoft404": false
+    },
+    "/commercial-dishwasher": {
+      "url": "https://archcateringandrefrigeration.co.uk/commercial-dishwasher",
+      "statusCode": 200,
+      "title": "Commercial Dishwasher Repair, Service & Supply UK | Arch",
+      "metaDescription": "Commercial dishwasher and glasswasher specialists. Repairs, PPM, and new equipment supply for Hobart, Winterhalter, Classeq, Meiko & more. UK wide engineers.",
+      "h1Count": 1,
+      "h1Texts": ["Commercial Dishwasher Repair, Service & Equipment Supply"],
+      "jsonLdTypes": ["LocalBusiness", "Service", "FAQPage", "BreadcrumbList", "HowTo", "LocalBusiness"],
+      "canonical": "https://archcateringandrefrigeration.co.uk/commercial-dishwasher/",
+      "isSoft404": false,
+      "accreditationClaimCheck": "no direct Gas Safe/F-Gas/NICEIC accreditation claims found; mentions are service-category links (e.g. 'Gas Safety' service page, F-Gas servicing offered), consistent with subcontracted registered engineers"
+    },
+    "/contacts": {
+      "url": "https://archcateringandrefrigeration.co.uk/contacts",
+      "statusCode": 200,
+      "title": "Contact Us | Arch Catering & Refrigeration Ltd",
+      "metaDescription": "Get in touch for emergency repairs, tailored maintenance plans and equipment quotes.",
+      "h1Count": 1,
+      "h1Texts": ["Contact Arch Catering & Refrigeration"],
+      "jsonLdTypes": ["LocalBusiness", "LocalBusiness", "BreadcrumbList"],
+      "canonical": "https://archcateringandrefrigeration.co.uk/contacts/",
+      "isSoft404": false,
+      "hasContactForm": true
+    }
+  },
+  "crawlDirectives": {
+    "robotsTxt": {
+      "present": true,
+      "disallowsGooglebot": false,
+      "disallowsAiCrawlers": false,
+      "explicitlyAllowedAiBots": ["GPTBot", "ClaudeBot", "PerplexityBot", "GoogleOther", "Bytespider", "CCBot", "anthropic-ai"],
+      "sitemapDirective": "https://archcateringandrefrigeration.co.uk/sitemap.xml"
+    },
+    "llmsTxt": { "present": true },
+    "sitemapXml": { "present": true, "urlCount": 35, "domain": "archcateringandrefrigeration.co.uk" }
+  },
+  "config": {
+    "declaredDomainMatches": true,
+    "notes": "canonical tags, robots.txt Sitemap directive, sitemap.xml URLs and llms.txt all declare archcateringandrefrigeration.co.uk, matching the configured url"
+  },
+  "searchConsole": {
+    "status": "UNAVAILABLE",
+    "reason": "Windsor connector returned a free-plan account-limit error ('Uh-oh! You've connected more accounts than your Free plan allows') instead of data"
+  },
+  "sentry": { "status": "NONE", "note": "no Sentry project configured for this site" }
+}
