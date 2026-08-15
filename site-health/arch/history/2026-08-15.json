@@ -1,0 +1,71 @@
+{
+  "site": "arch",
+  "url": "https://archcateringandrefrigeration.co.uk",
+  "captured": "2026-08-15",
+  "first_run": true,
+  "pages": {
+    "/": {
+      "reachable": true,
+      "http_status": 200,
+      "title": "Commercial Kitchen Specialists | Arch Catering & Refrigeration Ltd",
+      "meta_description": "UK wide installation, servicing and 24/7 reactive repairs for commercial kitchens and restaurants. Preventative maintenance plans from qualified engineers.",
+      "h1_count": 1,
+      "jsonld_types": ["LocalBusiness", "PostalAddress", "GeoCoordinates", "OpeningHoursSpecification", "ContactPoint", "Country", "BreadcrumbList", "ListItem"],
+      "canonical": "https://archcateringandrefrigeration.co.uk/",
+      "soft_404": false
+    },
+    "/commercial-dishwasher": {
+      "reachable": true,
+      "http_status": 200,
+      "title": "Commercial Dishwasher Repair, Service & Supply UK | Arch",
+      "meta_description": "Commercial dishwasher and glasswasher specialists. Repairs, PPM, and new equipment supply for Hobart, Winterhalter, Classeq, Meiko & more. UK wide engineers.",
+      "h1_count": 1,
+      "jsonld_types": ["LocalBusiness", "PostalAddress", "GeoCoordinates", "OpeningHoursSpecification", "ContactPoint", "Country", "BreadcrumbList", "ListItem", "Service", "FAQPage", "Question", "Answer", "HowTo", "HowToStep"],
+      "canonical": "https://archcateringandrefrigeration.co.uk/commercial-dishwasher/",
+      "soft_404": false
+    },
+    "/contacts": {
+      "reachable": true,
+      "http_status": 200,
+      "title": "Contact Us | Arch Catering & Refrigeration Ltd",
+      "meta_description": "Get in touch for emergency repairs, tailored maintenance plans and equipment quotes.",
+      "h1_count": 1,
+      "jsonld_types": ["LocalBusiness", "PostalAddress", "GeoCoordinates", "OpeningHoursSpecification", "ContactPoint", "Country", "BreadcrumbList", "ListItem"],
+      "canonical": "https://archcateringandrefrigeration.co.uk/contacts/",
+      "soft_404": false
+    }
+  },
+  "crawl_directives": {
+    "robots_txt": {
+      "found": true,
+      "blocks_googlebot": false,
+      "blocks_ai_crawlers": false,
+      "ai_crawlers_explicitly_allowed": ["GPTBot", "ClaudeBot", "PerplexityBot", "GoogleOther", "CCBot", "Bytespider", "anthropic-ai"],
+      "disallow_rules": ["/PDF's/", "/*.pdf$"],
+      "sitemap_directive": "https://archcateringandrefrigeration.co.uk/sitemap.xml"
+    },
+    "llms_txt": { "found": true, "referenced_host": "archcateringandrefrigeration.co.uk" },
+    "sitemap_xml": { "found": true, "url_count_sampled": 34, "hosts": ["archcateringandrefrigeration.co.uk"] }
+  },
+  "config_validation": {
+    "mismatch": false,
+    "configured_host": "archcateringandrefrigeration.co.uk",
+    "declared_host": "archcateringandrefrigeration.co.uk",
+    "sources_checked": ["canonical tags (3/3 pages)", "robots.txt Sitemap directive", "sitemap.xml URLs", "llms.txt"]
+  },
+  "accreditation": {
+    "rule": "Holds NO industry accreditations — no Gas Safe, F-Gas or NICEIC (engineers are subcontracted).",
+    "violation": false,
+    "notes": "Gas Safe / F-Gas mentions found are the /gas-safety service page and nav links (CP42 certification offered as a service), not claims that the company itself holds accreditation. llms.txt explicitly states regulated gas, F-Gas and electrical work is carried out by qualified, appropriately registered subcontract engineers."
+  },
+  "sentry": { "project": null, "queried": false, "reason": "no Sentry project configured for this site" },
+  "uptime": {
+    "source": "uptimerobot",
+    "monitor_id": 803742553,
+    "monitor_created": "2026-08-15T01:06:21Z",
+    "status": "UP",
+    "pct": 100,
+    "coverage": "partial — monitor created 2026-08-15T01:06:21Z, ~7h of observation at time of run; not a full 7-day window",
+    "incidents": []
+  }
+}
