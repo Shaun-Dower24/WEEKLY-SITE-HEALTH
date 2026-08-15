@@ -1,0 +1,12 @@
+[
+  {
+    "id": "2026-08-15-dower-contact-path-404",
+    "severity": "P1",
+    "found": "2026-08-15",
+    "summary": "CONFIG: routine's configured page list for dower includes \"/contact\", which returns HTTP 404 (Netlify default not-found page). The site's own sitemap.xml lists no /contact URL and llms.txt references contact as the on-page anchor /#contact, so no standalone contact page exists in the site's information architecture. Hypothesis: the page list was authored assuming a separate contact page. Fix the routine config (drop /contact or point it at /#contact), not the site.",
+    "status": "open",
+    "resolved": null,
+    "client_visible": false,
+    "client_wording": null
+  }
+]

@@ -1,0 +1,70 @@
+{
+  "site": "dower",
+  "url": "https://dowerdigital.co.uk",
+  "captured": "2026-08-15",
+  "first_run": true,
+  "pages": {
+    "/": {
+      "reachable": true,
+      "http_status": 200,
+      "title": "Dower Digital — Custom Websites and Managed SEO from Stevenage",
+      "meta_description": "Dower Digital engineers custom websites, monthly maintenance and managed SEO retainers for businesses that need to be found, trusted and maintained properly.",
+      "h1_count": 1,
+      "jsonld_types": ["ProfessionalService", "WebSite", "FAQPage"],
+      "jsonld_nested_types": ["Person", "PostalAddress", "City", "AdministrativeArea", "Country", "OfferCatalog", "Offer", "Service", "UnitPriceSpecification", "Question", "Answer"],
+      "canonical": "https://dowerdigital.co.uk/",
+      "soft_404": false
+    },
+    "/contact": {
+      "reachable": true,
+      "http_status": 404,
+      "title": "Page not found",
+      "meta_description": null,
+      "h1_count": 1,
+      "jsonld_types": [],
+      "canonical": null,
+      "soft_404": false,
+      "notes": "Hard 404 (Netlify default not-found page). sitemap.xml lists no /contact URL; llms.txt references contact as the on-page anchor /#contact. No standalone contact page exists in the site's information architecture."
+    }
+  },
+  "crawl_directives": {
+    "robots_txt": {
+      "found": true,
+      "blocks_googlebot": false,
+      "blocks_ai_crawlers": false,
+      "ai_crawlers_explicitly_allowed": ["GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "anthropic-ai", "Claude-Web", "PerplexityBot", "Perplexity-User", "Google-Extended", "GoogleOther", "Applebot-Extended", "CCBot", "Bytespider"],
+      "disallow_rules": [],
+      "sitemap_directive": "https://dowerdigital.co.uk/sitemap.xml"
+    },
+    "llms_txt": { "found": true, "referenced_host": "dowerdigital.co.uk" },
+    "sitemap_xml": {
+      "found": true,
+      "url_count": 6,
+      "hosts": ["dowerdigital.co.uk"],
+      "urls": [
+        "https://dowerdigital.co.uk/",
+        "https://dowerdigital.co.uk/web-design/",
+        "https://dowerdigital.co.uk/website-care/",
+        "https://dowerdigital.co.uk/seo/",
+        "https://dowerdigital.co.uk/web-design-stevenage/",
+        "https://dowerdigital.co.uk/faq/"
+      ]
+    }
+  },
+  "config_validation": {
+    "mismatch": false,
+    "configured_host": "dowerdigital.co.uk",
+    "declared_host": "dowerdigital.co.uk",
+    "sources_checked": ["canonical tag on /", "robots.txt Sitemap directive", "sitemap.xml URLs", "llms.txt"]
+  },
+  "accreditation": { "rule": "none to police", "violation": false },
+  "sentry": { "project": null, "queried": false, "reason": "no Sentry project configured for this site" },
+  "uptime": {
+    "source": "uptimerobot",
+    "monitor_id": null,
+    "status": "UPTIME_UNAVAILABLE",
+    "pct": null,
+    "coverage": "no UptimeRobot monitor exists for this site",
+    "incidents": []
+  }
+}

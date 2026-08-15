@@ -1,0 +1,50 @@
+{
+  "site": "paw",
+  "url": "https://positive-animal-wellbeing.netlify.app",
+  "captured": "2026-08-15",
+  "first_run": true,
+  "pages": {
+    "/": {
+      "reachable": true,
+      "http_status": 200,
+      "title": "Positive Animal Wellbeing — Galen Myotherapy & Class IV Laser Therapy",
+      "meta_description": "Gentle, hands-on Galen Myotherapy and Class IV Laser Therapy for dogs, in your pet's own home on the Costa del Sol — Estepona to Sotogrande. Qualified and fully insured.",
+      "h1_count": 1,
+      "jsonld_types": [],
+      "canonical": null,
+      "soft_404": false
+    },
+    "/contact": {
+      "reachable": true,
+      "http_status": 404,
+      "title": "Page not found",
+      "meta_description": null,
+      "h1_count": 1,
+      "jsonld_types": [],
+      "canonical": null,
+      "soft_404": false,
+      "notes": "Hard 404 (Netlify default not-found page). Homepage carries an in-page #contact section/form; no standalone /contact page exists."
+    }
+  },
+  "crawl_directives": {
+    "robots_txt": { "found": false, "http_status": 404 },
+    "llms_txt": { "found": false, "http_status": 404 },
+    "sitemap_xml": { "found": false, "http_status": 404 }
+  },
+  "config_validation": {
+    "mismatch": false,
+    "configured_host": "positive-animal-wellbeing.netlify.app",
+    "declared_host": null,
+    "notes": "No canonical tags, robots.txt, llms.txt or sitemap.xml exist to declare a domain. Internal links and footer nav are self-referential to the configured host. Nothing contradicts the configured URL."
+  },
+  "accreditation": { "rule": "none to police", "violation": false },
+  "sentry": { "project": null, "queried": false, "reason": "no Sentry project configured for this site" },
+  "uptime": {
+    "source": "uptimerobot",
+    "monitor_id": null,
+    "status": "UPTIME_UNAVAILABLE",
+    "pct": null,
+    "coverage": "no UptimeRobot monitor exists for this site",
+    "incidents": []
+  }
+}
