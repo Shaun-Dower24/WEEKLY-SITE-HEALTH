@@ -1,0 +1,12 @@
+[
+  {
+    "id": "2026-08-15-contact-404",
+    "severity": "P1",
+    "found": "2026-08-15",
+    "summary": "/contact returns Netlify's default hard 404 (HTTP 404) — the route does not exist on the deployed site, and is not listed in sitemap.xml either.",
+    "status": "open",
+    "resolved": null,
+    "client_visible": true,
+    "client_wording": "Your Contact page (dowerdigital.co.uk/contact) currently shows a 'Page not found' error instead of your contact details."
+  }
+]

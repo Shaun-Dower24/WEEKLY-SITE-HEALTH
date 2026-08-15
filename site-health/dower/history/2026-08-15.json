@@ -1,0 +1,66 @@
+{
+  "site": "dower",
+  "url": "https://dowerdigital.co.uk",
+  "captured": "2026-08-15",
+  "pages": {
+    "/": {
+      "reachable": true,
+      "http_status": 200,
+      "title": "Dower Digital — Custom Websites and Managed SEO from Stevenage",
+      "meta_description": "Dower Digital engineers custom websites, monthly maintenance and managed SEO retainers for businesses that need to be found, trusted and maintained properly.",
+      "h1_count": 1,
+      "h1_text": ["Custom websites. Managed SEO."],
+      "json_ld_types": ["ProfessionalService", "Person", "PostalAddress", "City", "AdministrativeArea", "Country", "OfferCatalog", "Offer", "Service", "UnitPriceSpecification", "WebSite", "FAQPage", "Question", "Answer"],
+      "canonical": "https://dowerdigital.co.uk/",
+      "soft_404": false
+    },
+    "/contact": {
+      "reachable": false,
+      "http_status": 404,
+      "hard_404": true,
+      "title": "Page not found",
+      "meta_description": null,
+      "h1_count": 1,
+      "h1_text": ["Page not found"],
+      "json_ld_types": [],
+      "canonical": null,
+      "soft_404": false,
+      "notes": "Netlify's stock platform 404 template — route not deployed on this site; /contact is also absent from sitemap.xml."
+    }
+  },
+  "crawl_directives": {
+    "robots_txt": {
+      "exists": true,
+      "disallows_googlebot": false,
+      "disallows_named_ai_bots": false,
+      "named_ai_bots_checked": ["GPTBot", "ClaudeBot", "PerplexityBot", "GoogleOther", "CCBot"],
+      "sitemap_directive": "https://dowerdigital.co.uk/sitemap.xml"
+    },
+    "llms_txt": {
+      "exists": true,
+      "host": "dowerdigital.co.uk"
+    },
+    "sitemap_xml": {
+      "exists": true,
+      "host": "dowerdigital.co.uk",
+      "url_count": 6,
+      "urls": [
+        "https://dowerdigital.co.uk/",
+        "https://dowerdigital.co.uk/web-design/",
+        "https://dowerdigital.co.uk/website-care/",
+        "https://dowerdigital.co.uk/seo/",
+        "https://dowerdigital.co.uk/web-design-stevenage/",
+        "https://dowerdigital.co.uk/faq/"
+      ]
+    }
+  },
+  "config_check": {
+    "agrees": true,
+    "declared_domain": "dowerdigital.co.uk"
+  },
+  "accreditation_check": null,
+  "uptime": {
+    "monitor_exists": false
+  },
+  "sentry": "NONE"
+}

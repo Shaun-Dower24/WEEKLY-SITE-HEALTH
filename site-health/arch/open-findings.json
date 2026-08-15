@@ -1,0 +1,12 @@
+[
+  {
+    "id": "2026-08-15-drive-connector-not-enabled",
+    "severity": "P1",
+    "found": "2026-08-15",
+    "summary": "Google Drive MCP connector is connected at the org level but not enabled for this routine's chat session, so _site_health_archcateringandrefrigeration.co.uk.json could not be written this run. The monthly report routine reads site health from this Drive file and will silently omit arch's section without it.",
+    "status": "open",
+    "resolved": null,
+    "client_visible": false,
+    "client_wording": "An internal reporting connection needs re-enabling on our side; this does not affect your website."
+  }
+]
