@@ -1,0 +1,67 @@
+{
+  "site": "dower",
+  "url": "https://dowerdigital.co.uk",
+  "captured": "2026-08-15",
+  "pagesConfigured": "AUTO",
+  "pagesResolved": ["/", "/web-design/", "/website-care/", "/seo/"],
+  "pageResolutionMethod": "sitemap.xml: homepage + top 3 highest-priority service pages (web-design, website-care, seo all priority 0.9), capped at 4. Excluded: web-design-stevenage (priority 0.8, location variant) and faq (priority 0.7, not a service/commercial page).",
+  "pages": {
+    "/": {
+      "statusCode": 200,
+      "reachable": true,
+      "title": "Dower Digital — Custom Websites and Managed SEO from Stevenage",
+      "metaDescription": "Dower Digital engineers custom websites, monthly maintenance and managed SEO retainers for businesses that need to be found, trusted and maintained properly.",
+      "h1Count": 1,
+      "canonical": "https://dowerdigital.co.uk/",
+      "jsonLdTypes": ["ProfessionalService", "Person", "PostalAddress", "City", "AdministrativeArea", "Country", "OfferCatalog", "Offer", "Service", "UnitPriceSpecification", "WebSite", "FAQPage", "Question", "Answer"]
+    },
+    "/web-design/": {
+      "statusCode": 200,
+      "reachable": true,
+      "title": "Custom Website Design & Development in Stevenage | Dower Digital",
+      "metaDescription": "Custom, high-performance websites built around your goals — fixed price from £1,000, typically 4–6 weeks. SEO and AEO-ready from day one. Stevenage, UK-wide.",
+      "h1Count": 1,
+      "canonical": "https://dowerdigital.co.uk/web-design/",
+      "jsonLdTypes": ["Service", "BreadcrumbList"]
+    },
+    "/website-care/": {
+      "statusCode": 200,
+      "reachable": true,
+      "title": "Monthly Website Care & Maintenance Plans | Dower Digital",
+      "metaDescription": "Managed hosting, security, backups, updates and priority support from £100/month. Keep your website secure, current and fast without lifting a finger. Stevenage, UK-wide.",
+      "h1Count": 1,
+      "canonical": "https://dowerdigital.co.uk/website-care/",
+      "jsonLdTypes": ["Service", "BreadcrumbList"]
+    },
+    "/seo/": {
+      "statusCode": 200,
+      "reachable": true,
+      "title": "Managed SEO Retainers in Stevenage | Dower Digital",
+      "metaDescription": "Monthly managed SEO from £450/month — keyword strategy, on-page and technical SEO, content and reporting. Built for AI search (AEO) too. Stevenage, UK-wide.",
+      "h1Count": 1,
+      "canonical": "https://dowerdigital.co.uk/seo/",
+      "jsonLdTypes": ["Service", "BreadcrumbList"]
+    }
+  },
+  "crawlDirectives": {
+    "robotsTxt": {
+      "exists": true,
+      "blocksTargetBots": false,
+      "sitemapDirective": "https://dowerdigital.co.uk/sitemap.xml"
+    },
+    "llmsTxt": { "exists": true },
+    "sitemapXml": { "exists": true, "urlCount": 6 }
+  },
+  "configCheck": {
+    "configuredUrl": "https://dowerdigital.co.uk",
+    "declaredCanonicalDomain": "dowerdigital.co.uk",
+    "declaredSitemapDomain": "dowerdigital.co.uk",
+    "matchesConfigured": true
+  },
+  "accreditationCheck": {
+    "violationFound": false,
+    "notes": "accreditation_rule is 'none to police' for this site."
+  },
+  "sentry": { "project": null, "note": "NONE — no Sentry project configured for this site." },
+  "uptime": { "monitorId": null, "note": "No UptimeRobot monitor exists for this site." }
+}

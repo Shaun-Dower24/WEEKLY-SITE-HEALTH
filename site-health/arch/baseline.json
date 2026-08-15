@@ -1,0 +1,66 @@
+{
+  "site": "arch",
+  "url": "https://archcateringandrefrigeration.co.uk",
+  "captured": "2026-08-15",
+  "pagesConfigured": ["/", "/commercial-dishwasher", "/contacts"],
+  "pages": {
+    "/": {
+      "statusCode": 200,
+      "reachable": true,
+      "title": "Commercial Kitchen Specialists | Arch Catering & Refrigeration Ltd",
+      "metaDescription": "UK wide installation, servicing and 24/7 reactive repairs for commercial kitchens and restaurants. Preventative maintenance plans from qualified engineers.",
+      "h1Count": 1,
+      "canonical": "https://archcateringandrefrigeration.co.uk/",
+      "jsonLdTypes": ["LocalBusiness", "PostalAddress", "GeoCoordinates", "OpeningHoursSpecification", "Country"]
+    },
+    "/commercial-dishwasher": {
+      "statusCode": 200,
+      "reachable": true,
+      "title": "Commercial Dishwasher Repair, Service & Supply UK | Arch",
+      "metaDescription": "Commercial dishwasher and glasswasher specialists. Repairs, PPM, and new equipment supply for Hobart, Winterhalter, Classeq, Meiko & more. UK wide engineers.",
+      "h1Count": 1,
+      "canonical": "https://archcateringandrefrigeration.co.uk/commercial-dishwasher/",
+      "jsonLdTypes": ["LocalBusiness", "PostalAddress", "GeoCoordinates", "OpeningHoursSpecification", "Country"]
+    },
+    "/contacts": {
+      "statusCode": 200,
+      "reachable": true,
+      "title": "Contact Us | Arch Catering & Refrigeration Ltd",
+      "metaDescription": "Get in touch for emergency repairs, tailored maintenance plans and equipment quotes.",
+      "h1Count": 1,
+      "canonical": "https://archcateringandrefrigeration.co.uk/contacts/",
+      "jsonLdTypes": ["LocalBusiness", "PostalAddress", "GeoCoordinates", "OpeningHoursSpecification", "Country"]
+    }
+  },
+  "crawlDirectives": {
+    "robotsTxt": {
+      "exists": true,
+      "blocksTargetBots": false,
+      "sitemapDirective": "https://archcateringandrefrigeration.co.uk/sitemap.xml"
+    },
+    "llmsTxt": { "exists": true },
+    "sitemapXml": { "exists": true, "urlCount": 36 }
+  },
+  "configCheck": {
+    "configuredUrl": "https://archcateringandrefrigeration.co.uk",
+    "declaredCanonicalDomain": "archcateringandrefrigeration.co.uk",
+    "declaredSitemapDomain": "archcateringandrefrigeration.co.uk",
+    "matchesConfigured": true
+  },
+  "accreditationCheck": {
+    "violationFound": false,
+    "notes": "No claim of Gas Safe/F-Gas/NICEIC accreditation found in scraped copy or JSON-LD on the 3 configured pages. Homepage and dishwasher page describe gas-safety and dishwasher-servicing SERVICES and reference subcontracted, appropriately registered engineers (per company's own description) — this is a service description, not an accreditation claim, so not flagged per the accreditation_rule."
+  },
+  "sentry": {
+    "project": "arch-catering",
+    "unresolvedIssueCount": 0,
+    "period": "30d"
+  },
+  "uptime": {
+    "monitorId": 803742553,
+    "monitorCreated": "2026-08-15T01:06:21.000Z",
+    "status": "UP",
+    "coverage": "partial",
+    "incidentCount90d": 0
+  }
+}

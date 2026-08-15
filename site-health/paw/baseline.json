@@ -1,0 +1,32 @@
+{
+  "site": "paw",
+  "url": "https://positive-animal-wellbeing.netlify.app",
+  "captured": "2026-08-15",
+  "pagesConfigured": ["/"],
+  "pages": {
+    "/": {
+      "statusCode": 200,
+      "reachable": true,
+      "title": "Positive Animal Wellbeing — Galen Myotherapy & Class IV Laser Therapy",
+      "metaDescription": "Gentle, hands-on Galen Myotherapy and Class IV Laser Therapy for dogs, in your pet's own home on the Costa del Sol — Estepona to Sotogrande. Qualified and fully insured.",
+      "h1Count": 1,
+      "canonical": null,
+      "jsonLdTypes": []
+    }
+  },
+  "crawlDirectives": {
+    "robotsTxt": { "exists": false },
+    "llmsTxt": { "exists": false },
+    "sitemapXml": { "exists": false }
+  },
+  "configCheck": {
+    "configuredUrl": "https://positive-animal-wellbeing.netlify.app",
+    "note": "No robots.txt, llms.txt, sitemap.xml or canonical tag present to compare against configured domain; nothing to disagree with."
+  },
+  "accreditationCheck": {
+    "violationFound": false,
+    "notes": "accreditation_rule is 'none to police' for this site."
+  },
+  "sentry": { "project": null, "note": "NONE — no Sentry project configured for this site." },
+  "uptime": { "monitorId": null, "note": "No UptimeRobot monitor exists for this site." }
+}
