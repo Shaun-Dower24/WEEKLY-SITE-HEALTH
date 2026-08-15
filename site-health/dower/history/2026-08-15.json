@@ -1,0 +1,41 @@
+{
+  "site": "dower",
+  "configuredUrl": "https://dowerdigital.co.uk",
+  "runDate": "2026-08-15",
+  "pages": {
+    "/": {
+      "url": "https://dowerdigital.co.uk/",
+      "statusCode": 200,
+      "title": "Dower Digital — Custom Websites and Managed SEO from Stevenage",
+      "metaDescription": "Dower Digital engineers custom websites, monthly maintenance and managed SEO retainers for businesses that need to be found, trusted and maintained properly.",
+      "h1Count": 1,
+      "h1Texts": ["Custom websites. Managed SEO."],
+      "jsonLdTypes": ["ProfessionalService", "WebSite", "FAQPage"],
+      "canonical": "https://dowerdigital.co.uk/",
+      "isSoft404": false
+    },
+    "/contact": {
+      "url": "https://dowerdigital.co.uk/contact",
+      "statusCode": 404,
+      "title": "Page not found",
+      "isSoft404": true
+    }
+  },
+  "crawlDirectives": {
+    "robotsTxt": {
+      "present": true,
+      "disallowsGooglebot": false,
+      "disallowsAiCrawlers": false,
+      "explicitlyAllowedAiBots": ["GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "anthropic-ai", "Claude-Web", "PerplexityBot", "Perplexity-User", "Google-Extended", "GoogleOther", "Applebot-Extended", "CCBot", "Bytespider"],
+      "sitemapDirective": "https://dowerdigital.co.uk/sitemap.xml"
+    },
+    "llmsTxt": { "present": true },
+    "sitemapXml": { "present": true, "urlCount": 6, "domain": "dowerdigital.co.uk" }
+  },
+  "config": {
+    "declaredDomainMatches": true,
+    "notes": "canonical, robots.txt Sitemap directive, sitemap.xml URLs and llms.txt all declare dowerdigital.co.uk, matching the configured url; the site appears to be a single page with anchor sections (e.g. #contact), and the standalone /contact route does not exist"
+  },
+  "searchConsole": { "status": "NOT_CONFIGURED" },
+  "sentry": { "status": "NONE", "note": "no Sentry project configured for this site" }
+}
