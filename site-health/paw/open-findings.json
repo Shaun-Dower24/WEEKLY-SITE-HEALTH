@@ -1,0 +1,12 @@
+[
+  {
+    "id": "2026-08-17-paw-wrong-host-configured",
+    "severity": "P1",
+    "found": "2026-08-17",
+    "summary": "Routine is configured against positive-animal-wellbeing.netlify.app, but the site's canonical tag, robots.txt Sitemap directive, sitemap.xml URLs and llms.txt all declare pawellbeing.com as the real domain. The routine is auditing an alias, not the live host.",
+    "status": "open",
+    "resolved": null,
+    "client_visible": false,
+    "client_wording": null
+  }
+]
