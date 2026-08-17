@@ -44,5 +44,12 @@
   "accreditation_rule": "Holds NO industry accreditations (Gas Safe, F-Gas, NICEIC) - engineers subcontracted",
   "accreditation_violation": false,
   "sentry_project": "arch-catering",
+  "sentry_instrumentation": {
+    "verified": true,
+    "method": "Bundled inside the Vite build (assets/index-DYQ46DfF.js) — no separate script tag, so absence from page HTML is not absence of monitoring.",
+    "dsn_project_id": "4511914324525136",
+    "dsn_matches_project": true,
+    "traces_sample_rate": 0.2
+  },
   "uptime_monitor_id": 803742553
 }

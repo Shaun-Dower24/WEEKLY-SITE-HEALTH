@@ -28,6 +28,15 @@
   "config_mismatch_detail": "Configured url positive-animal-wellbeing.netlify.app; canonical tag, robots.txt Sitemap directive, sitemap.xml URLs and llms.txt all declare pawellbeing.com as the real domain.",
   "accreditation_rule": "none to police",
   "accreditation_violation": false,
-  "sentry_project": null,
+  "sentry_project": "paw",
+  "sentry_config_note": "Routine SITES config still declares 'sentry: NONE' for this site; a 'paw' project now exists and was queried this run. The stored routine prompt needs updating to 'sentry: paw' or future runs will silently skip error monitoring.",
+  "sentry_instrumentation": {
+    "verified": true,
+    "method": "Separate script tags in <head>: assets/js/sentry.min.js (vendored SDK) + assets/js/sentry-init.js (config), loaded synchronously before other scripts.",
+    "dsn_project_id": "4511919722790992",
+    "dsn_matches_project": true,
+    "errors_only": true,
+    "environments": "production (pawellbeing.com) / preview (netlify.app + other hosts) / development (localhost)"
+  },
   "uptime_monitor_id": null
 }
