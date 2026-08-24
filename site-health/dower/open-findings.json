@@ -1,0 +1,12 @@
+[
+  {
+    "id": "2026-08-24-dower-homepage-jsonld-reduced",
+    "severity": "P2",
+    "found": "2026-08-24",
+    "summary": "Homepage JSON-LD @graph shrank from 6 top-level nodes (ProfessionalService, Person, OfferCatalog, Service, WebSite, FAQPage) as of 2026-08-17 to 3 (ProfessionalService, WebSite, FAQPage) today. The Person, OfferCatalog (with its Offer/pricing children) and standalone Service nodes are gone from the homepage's structured data. The three service pages (/web-design/, /website-care/, /seo/) still carry their own Service schema independently, so this is a homepage-only loss.",
+    "status": "open",
+    "resolved": null,
+    "client_visible": true,
+    "client_wording": "Some of the structured data (schema markup) on your homepage — the parts describing you as the business owner and the pricing overview — was removed from the page's code. Visitors won't notice anything, but it may reduce how rich your listing looks in search results and how well AI tools like ChatGPT summarize your services."
+  }
+]
