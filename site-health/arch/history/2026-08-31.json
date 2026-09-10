@@ -1,7 +1,7 @@
 {
   "site": "arch",
   "configured_url": "https://archcateringandrefrigeration.co.uk",
-  "last_run": "2026-09-07",
+  "last_run": "2026-08-31",
   "pages_mode": "explicit",
   "pages": [
     {
@@ -51,8 +51,7 @@
     "notes": "Gas Safe / F-Gas / CP42 references found are service descriptions or subcontracted-engineer credentials, not company accreditation claims"
   },
   "sentry_project": "arch-catering",
-  "sentry_status": "OK - queried successfully; 0 new/regressed issues in the 7d since last run",
+  "sentry_status": "UNAVAILABLE - auth required, could not complete in unattended session",
   "uptime_monitor_id": 803742553,
-  "uptime_monitor_created": "2026-08-15T01:06:21.000Z",
-  "uptime_last_check": { "window": "7d since last run (2026-08-31 to 2026-09-07)", "uptime_pct": 100, "incidents": 0 }
+  "uptime_monitor_created": "2026-08-15T01:06:21.000Z"
 }

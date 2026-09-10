@@ -1,7 +1,7 @@
 {
   "site": "dower",
   "configured_url": "https://dowerdigital.co.uk",
-  "last_run": "2026-09-07",
+  "last_run": "2026-08-31",
   "pages_mode": "AUTO",
   "pages_resolution_note": "Derived from sitemap.xml on 2026-08-31: homepage plus the three highest-priority (0.9) service/commercial pages, capped at 4. Excluded /web-design-stevenage/ (priority 0.8, location variant), /faq/ and /privacy/ (non-commercial).",
   "pages": [
@@ -9,68 +9,41 @@
       "path": "/",
       "url": "https://dowerdigital.co.uk/",
       "statusCode": 200,
-      "title": "Dower Digital \u2014 Custom Websites and Managed SEO from Stevenage",
+      "title": "Dower Digital — Custom Websites and Managed SEO from Stevenage",
       "metaDescription": "Dower Digital engineers custom websites, monthly maintenance and managed SEO retainers for businesses that need to be found, trusted and maintained properly.",
       "canonical": "https://dowerdigital.co.uk/",
       "h1Count": 1,
-      "jsonLdTypes": [
-        "AdministrativeArea",
-        "Answer",
-        "City",
-        "Country",
-        "FAQPage",
-        "Offer",
-        "OfferCatalog",
-        "Person",
-        "PostalAddress",
-        "ProfessionalService",
-        "Question",
-        "Service",
-        "UnitPriceSpecification",
-        "WebSite"
-      ]
+      "jsonLdTypes": ["AdministrativeArea", "Answer", "City", "Country", "FAQPage", "Offer", "OfferCatalog", "Person", "PostalAddress", "ProfessionalService", "Question", "Service", "UnitPriceSpecification", "WebSite"]
     },
     {
       "path": "/web-design/",
       "url": "https://dowerdigital.co.uk/web-design/",
       "statusCode": 200,
       "title": "Custom Website Design & Development in Stevenage | Dower Digital",
-      "metaDescription": "Custom, high-performance websites built around your goals \u2014 fixed price from \u00a31,000, typically 4\u20136 weeks. SEO and AEO-ready from day one. Stevenage, UK-wide.",
+      "metaDescription": "Custom, high-performance websites built around your goals — fixed price from £1,000, typically 4–6 weeks. SEO and AEO-ready from day one. Stevenage, UK-wide.",
       "canonical": "https://dowerdigital.co.uk/web-design/",
       "h1Count": 1,
-      "jsonLdTypes": [
-        "Service",
-        "BreadcrumbList",
-        "ListItem"
-      ]
+      "jsonLdTypes": ["Service", "BreadcrumbList", "ListItem"]
     },
     {
       "path": "/website-care/",
       "url": "https://dowerdigital.co.uk/website-care/",
       "statusCode": 200,
       "title": "Monthly Website Care & Maintenance Plans | Dower Digital",
-      "metaDescription": "Managed hosting, security, backups, updates and priority support from \u00a3100/month. Keep your website secure, current and fast without lifting a finger. Stevenage, UK-wide.",
+      "metaDescription": "Managed hosting, security, backups, updates and priority support from £100/month. Keep your website secure, current and fast without lifting a finger. Stevenage, UK-wide.",
       "canonical": "https://dowerdigital.co.uk/website-care/",
       "h1Count": 1,
-      "jsonLdTypes": [
-        "Service",
-        "BreadcrumbList",
-        "ListItem"
-      ]
+      "jsonLdTypes": ["Service", "BreadcrumbList", "ListItem"]
     },
     {
       "path": "/seo/",
       "url": "https://dowerdigital.co.uk/seo/",
       "statusCode": 200,
       "title": "Managed SEO Retainers in Stevenage | Dower Digital",
-      "metaDescription": "Monthly managed SEO from \u00a3450/month \u2014 keyword strategy, on-page and technical SEO, content and reporting. Built for AI search (AEO) too. Stevenage, UK-wide.",
+      "metaDescription": "Monthly managed SEO from £450/month — keyword strategy, on-page and technical SEO, content and reporting. Built for AI search (AEO) too. Stevenage, UK-wide.",
       "canonical": "https://dowerdigital.co.uk/seo/",
       "h1Count": 1,
-      "jsonLdTypes": [
-        "Service",
-        "BreadcrumbList",
-        "ListItem"
-      ]
+      "jsonLdTypes": ["Service", "BreadcrumbList", "ListItem"]
     }
   ],
   "robots_txt": {
@@ -78,20 +51,11 @@
     "sitemap_directive": "https://dowerdigital.co.uk/sitemap.xml",
     "blocks_ai_crawlers": false
   },
-  "sitemap_xml": {
-    "present": true,
-    "domain": "dowerdigital.co.uk"
-  },
-  "llms_txt": {
-    "present": true,
-    "domain": "dowerdigital.co.uk"
-  },
+  "sitemap_xml": { "present": true, "domain": "dowerdigital.co.uk" },
+  "llms_txt": { "present": true, "domain": "dowerdigital.co.uk" },
   "declared_canonical_domain": "dowerdigital.co.uk",
   "config_match": true,
-  "accreditation_check": {
-    "rule": "none to police",
-    "violation_found": false
-  },
+  "accreditation_check": { "rule": "none to police", "violation_found": false },
   "sentry_project": null,
   "sentry_status": "NONE - not configured for this site",
   "uptime_monitor_id": null,

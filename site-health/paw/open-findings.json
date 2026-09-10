@@ -1,19 +1,9 @@
 [
   {
-    "id": "2026-08-17-paw-wrong-host-configured",
+    "id": "2026-08-31-wrong-host-configured",
     "severity": "P1",
-    "found": "2026-08-17",
-    "summary": "Routine is configured against positive-animal-wellbeing.netlify.app, but the site's canonical tag, robots.txt Sitemap directive, sitemap.xml URLs and llms.txt all declare pawellbeing.com as the real domain. The routine is auditing an alias, not the live host. Re-confirmed unchanged on 2026-08-24.",
-    "status": "open",
-    "resolved": null,
-    "client_visible": false,
-    "client_wording": null
-  },
-  {
-    "id": "2026-08-17-paw-sentry-config-stale",
-    "severity": "P2",
-    "found": "2026-08-17",
-    "summary": "Routine SITES config declares 'sentry: NONE' for paw, but a 'paw' Sentry project exists in the dower-digital org and the live site is instrumented against it. Until the stored routine prompt is changed to 'sentry: paw', scheduled runs silently skip error monitoring for this site. Re-confirmed unchanged on 2026-08-24 (project still present, config still NONE).",
+    "found": "2026-08-31",
+    "summary": "Routine is configured to audit https://positive-animal-wellbeing.netlify.app, but the site's own canonical tag, robots.txt Sitemap directive, sitemap.xml and llms.txt all declare https://pawellbeing.com as the real domain. Firecrawl's resolved metadata.url for every fetch also came back as pawellbeing.com. This routine continued auditing the configured Netlify URL so the diff stays comparable, per the CONFIG-finding rule.",
     "status": "open",
     "resolved": null,
     "client_visible": false,
