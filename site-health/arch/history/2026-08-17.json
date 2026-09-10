@@ -1,0 +1,55 @@
+{
+  "site": "arch",
+  "configured_url": "https://archcateringandrefrigeration.co.uk",
+  "captured": "2026-08-17",
+  "pages_config": "explicit",
+  "resolved_pages": ["/", "/commercial-dishwasher", "/contacts"],
+  "pages": {
+    "/": {
+      "statusCode": 200,
+      "title": "Commercial Kitchen Specialists | Arch Catering & Refrigeration Ltd",
+      "metaDescription": "UK wide installation, servicing and 24/7 reactive repairs for commercial kitchens and restaurants. Preventative maintenance plans from qualified engineers.",
+      "h1Count": 1,
+      "canonical": "https://archcateringandrefrigeration.co.uk/",
+      "jsonLdTypes": ["LocalBusiness", "BreadcrumbList"]
+    },
+    "/commercial-dishwasher": {
+      "statusCode": 200,
+      "title": "Commercial Dishwasher Repair, Service & Supply UK | Arch",
+      "metaDescription": "Commercial dishwasher and glasswasher specialists. Repairs, PPM, and new equipment supply for Hobart, Winterhalter, Classeq, Meiko & more. UK wide engineers.",
+      "h1Count": 1,
+      "canonical": "https://archcateringandrefrigeration.co.uk/commercial-dishwasher/",
+      "jsonLdTypes": ["LocalBusiness", "Service", "FAQPage", "BreadcrumbList", "HowTo"]
+    },
+    "/contacts": {
+      "statusCode": 200,
+      "title": "Contact Us | Arch Catering & Refrigeration Ltd",
+      "metaDescription": "Get in touch for emergency repairs, tailored maintenance plans and equipment quotes.",
+      "h1Count": 1,
+      "canonical": "https://archcateringandrefrigeration.co.uk/contacts/",
+      "jsonLdTypes": ["LocalBusiness", "BreadcrumbList"]
+    }
+  },
+  "robots_txt": {
+    "present": true,
+    "blocks_googlebot": false,
+    "blocks_ai_crawlers": false,
+    "notable_disallows": ["/PDF's/", "/*.pdf$"],
+    "sitemap_directive": "https://archcateringandrefrigeration.co.uk/sitemap.xml"
+  },
+  "sitemap_xml": { "present": true, "url_count": 34 },
+  "llms_txt": { "present": true },
+  "declared_canonical_domain": "archcateringandrefrigeration.co.uk",
+  "config_match": true,
+  "accreditation_rule": "Holds NO industry accreditations (Gas Safe, F-Gas, NICEIC) - engineers subcontracted",
+  "accreditation_violation": false,
+  "sentry_project": "arch-catering",
+  "sentry_instrumentation": {
+    "verified": true,
+    "method": "Bundled inside the Vite build (assets/index-DYQ46DfF.js) — no separate script tag, so absence from page HTML is not absence of monitoring.",
+    "dsn_project_id": "4511914324525136",
+    "dsn_matches_project": true,
+    "traces_sample_rate": 0.2
+  },
+  "uptime_monitor_id": 803742553
+}

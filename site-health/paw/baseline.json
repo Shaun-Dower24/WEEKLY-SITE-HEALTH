@@ -1,0 +1,42 @@
+{
+  "site": "paw",
+  "configured_url": "https://positive-animal-wellbeing.netlify.app",
+  "captured": "2026-08-17",
+  "pages_config": "explicit",
+  "resolved_pages": ["/"],
+  "pages": {
+    "/": {
+      "statusCode": 200,
+      "title": "Canine Myotherapy & Class IV Laser Therapy — Costa del Sol",
+      "metaDescription": "Gentle Galen Myotherapy and Class IV Laser Therapy for dogs, in your own home from Estepona to Sotogrande. Qualified and fully insured.",
+      "h1Count": 1,
+      "canonical": "https://pawellbeing.com/",
+      "jsonLdTypes": ["LocalBusiness", "Person", "Service", "WebSite", "FAQPage", "Review"]
+    }
+  },
+  "robots_txt": {
+    "present": true,
+    "blocks_googlebot": false,
+    "blocks_ai_crawlers": false,
+    "notable_disallows": [],
+    "sitemap_directive": "https://pawellbeing.com/sitemap.xml"
+  },
+  "sitemap_xml": { "present": true, "url_count": 12 },
+  "llms_txt": { "present": true },
+  "declared_canonical_domain": "pawellbeing.com",
+  "config_match": false,
+  "config_mismatch_detail": "Configured url positive-animal-wellbeing.netlify.app; canonical tag, robots.txt Sitemap directive, sitemap.xml URLs and llms.txt all declare pawellbeing.com as the real domain.",
+  "accreditation_rule": "none to police",
+  "accreditation_violation": false,
+  "sentry_project": "paw",
+  "sentry_config_note": "Routine SITES config still declares 'sentry: NONE' for this site; a 'paw' project now exists and was queried this run. The stored routine prompt needs updating to 'sentry: paw' or future runs will silently skip error monitoring.",
+  "sentry_instrumentation": {
+    "verified": true,
+    "method": "Separate script tags in <head>: assets/js/sentry.min.js (vendored SDK) + assets/js/sentry-init.js (config), loaded synchronously before other scripts.",
+    "dsn_project_id": "4511919722790992",
+    "dsn_matches_project": true,
+    "errors_only": true,
+    "environments": "production (pawellbeing.com) / preview (netlify.app + other hosts) / development (localhost)"
+  },
+  "uptime_monitor_id": null
+}
