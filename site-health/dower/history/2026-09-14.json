@@ -1,0 +1,60 @@
+{
+  "site": "dower",
+  "configured_url": "https://dowerdigital.co.uk",
+  "last_run": "2026-09-14",
+  "pages": {
+    "source": "AUTO - resolved from sitemap.xml (homepage + top 3 commercial pages by priority, capped at 4)",
+    "list": ["/", "/web-design/", "/website-care/", "/seo/"],
+    "details": {
+      "/": {
+        "status": "ok",
+        "title": "Dower Digital — Custom Websites and Managed SEO from Stevenage",
+        "meta_description": "Dower Digital engineers custom websites, monthly maintenance and managed SEO retainers for businesses that need to be found, trusted and maintained properly.",
+        "canonical": "https://dowerdigital.co.uk/",
+        "h1_count": 1,
+        "jsonld_types": ["ProfessionalService", "OfferCatalog", "Service", "WebSite", "FAQPage"]
+      },
+      "/web-design/": {
+        "status": "ok",
+        "title": "Custom Website Design & Development | Dower Digital",
+        "meta_description": "Custom, high-performance websites built around your goals — fixed price from £1,000, typically 4–6 weeks. SEO and AEO-ready from day one. UK-wide and remote.",
+        "canonical": "https://dowerdigital.co.uk/web-design/",
+        "h1_count": 1,
+        "jsonld_types": ["Service", "BreadcrumbList"]
+      },
+      "/website-care/": {
+        "status": "ok",
+        "title": "Monthly Website Care & Maintenance Plans | Dower Digital",
+        "meta_description": "Managed hosting, security, backups, updates and priority support from £100/month. Keep your website secure, current and fast without lifting a finger. Stevenage, UK-wide.",
+        "canonical": "https://dowerdigital.co.uk/website-care/",
+        "h1_count": 1,
+        "jsonld_types": ["Service", "BreadcrumbList"]
+      },
+      "/seo/": {
+        "status": "ok",
+        "title": "Managed SEO Retainers in Stevenage | Dower Digital",
+        "meta_description": "Monthly managed SEO from £450/month — keyword strategy, on-page and technical SEO, content and reporting. Built for AI search (AEO) too. Stevenage, UK-wide.",
+        "canonical": "https://dowerdigital.co.uk/seo/",
+        "h1_count": 1,
+        "jsonld_types": ["Service", "BreadcrumbList"]
+      }
+    }
+  },
+  "crawl_directives": {
+    "robots_txt": "present",
+    "robots_txt_sitemap_directive": "https://dowerdigital.co.uk/sitemap.xml",
+    "robots_disallow_affects_target_bots": false,
+    "sitemap_xml": "present",
+    "llms_txt": "present"
+  },
+  "config_check": {
+    "configured_domain": "dowerdigital.co.uk",
+    "declared_canonical_domain": "dowerdigital.co.uk",
+    "match": true
+  },
+  "accreditation_check": {
+    "rule": "none to police"
+  },
+  "sentry": "NONE - not queried",
+  "uptime": "UNAVAILABLE - no UptimeRobot monitor exists for this site"
+}
