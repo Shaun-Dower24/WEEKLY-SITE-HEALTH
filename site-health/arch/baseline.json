@@ -1,23 +1,23 @@
 {
   "site": "arch",
   "configured_url": "https://archcateringandrefrigeration.co.uk",
-  "last_run": "2026-09-14",
+  "last_run": "2026-09-21",
   "pages": {
     "source": "explicit",
     "list": ["/", "/commercial-dishwasher", "/contacts"],
     "details": {
       "/": {
         "status": "ok",
-        "title": "Commercial Kitchen Specialists | Arch Catering & Refrigeration Ltd",
-        "meta_description": "UK wide installation, servicing and 24/7 reactive repairs for commercial kitchens and restaurants. Preventative maintenance plans from qualified engineers.",
+        "title": "Commercial Kitchen Specialists | Arch Catering",
+        "meta_description": "Installation, servicing and 24/7 reactive repairs for commercial kitchens across mainland UK. Preventative maintenance from qualified engineers.",
         "canonical": "https://archcateringandrefrigeration.co.uk/",
         "h1_count": 1,
-        "jsonld_types": ["LocalBusiness", "BreadcrumbList"]
+        "jsonld_types": ["LocalBusiness", "BreadcrumbList", "Service", "FAQPage"]
       },
       "/commercial-dishwasher": {
         "status": "ok",
-        "title": "Commercial Dishwasher Repair, Service & Supply UK | Arch",
-        "meta_description": "Commercial dishwasher and glasswasher specialists. Repairs, PPM, and new equipment supply for Hobart, Winterhalter, Classeq, Meiko & more. UK wide engineers.",
+        "title": "Commercial Dishwasher & Warewashing Repair UK | Arch",
+        "meta_description": "Dishwasher, glasswasher and warewashing repair, down to PCB and control board level. Hobart, Winterhalter, Classeq, Meiko. Mainland UK. Call 01438 878363.",
         "canonical": "https://archcateringandrefrigeration.co.uk/commercial-dishwasher/",
         "h1_count": 1,
         "jsonld_types": ["LocalBusiness", "Service", "FAQPage", "BreadcrumbList", "HowTo"]
@@ -47,16 +47,16 @@
   "accreditation_check": {
     "rule": "Holds NO industry accreditations (Gas Safe, F-Gas, NICEIC); engineers subcontracted. Claims are P1, service descriptions are not.",
     "violation_found": false,
-    "notes": "Gas Safe / F-Gas / CP42 references on scraped pages describe services performed or subcontracted-engineer credentials, not company accreditation claims."
+    "notes": "Verified against raw page HTML (not just LLM extraction, which false-positived 'NICEIC approved' with no such text anywhere on any page). Every 'Gas Safe' / 'F-Gas' occurrence on all 3 pages describes either the named service (Gas Safety, F-Gas servicing) or subcontracted-engineer credentials ('Gas Safe registered gas engineers', 'F-Gas qualified refrigeration engineers') - never a claim that Arch itself holds the accreditation. No NICEIC mention found anywhere."
   },
   "sentry": {
     "project": "arch-catering",
-    "unresolved_issue_count": 0,
-    "new_since_last_check": 0
+    "new_since_last_check": 0,
+    "regressed_since_last_check": 0
   },
   "uptime": {
     "monitor_id": 803742553,
-    "window": "2026-09-07/2026-09-14",
+    "window": "2026-09-14/2026-09-21",
     "pct": 100,
     "coverage": "full",
     "incidents": []

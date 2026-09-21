@@ -1,7 +1,7 @@
 {
   "site": "paw",
   "configured_url": "https://positive-animal-wellbeing.netlify.app",
-  "last_run": "2026-09-14",
+  "last_run": "2026-09-21",
   "pages": {
     "source": "explicit",
     "list": ["/"],
@@ -12,7 +12,7 @@
         "meta_description": "Gentle Galen Myotherapy and Class IV Laser Therapy for dogs, in your own home from Estepona to Sotogrande. Qualified and fully insured.",
         "canonical": "https://pawellbeing.com/",
         "h1_count": 1,
-        "jsonld_types": ["LocalBusiness", "Person", "Service", "WebSite", "FAQPage"]
+        "jsonld_types": ["LocalBusiness", "Person", "Service", "WebSite", "FAQPage", "Quotation"]
       }
     }
   },
@@ -27,11 +27,11 @@
     "configured_domain": "positive-animal-wellbeing.netlify.app",
     "declared_canonical_domain": "pawellbeing.com",
     "match": false,
-    "note": "Homepage canonical tag, robots.txt Sitemap directive, sitemap.xml URLs and llms.txt all declare pawellbeing.com. Configured URL is the Netlify alias. Audited on the configured URL for comparability; see open-findings for the CONFIG finding."
+    "note": "Homepage canonical tag, robots.txt Sitemap directive, sitemap.xml URLs and llms.txt all still declare pawellbeing.com. Configured URL remains the Netlify alias. Audited on the configured URL for comparability; see open-findings for the CONFIG finding (open since 2026-09-14)."
   },
   "accreditation_check": {
     "rule": "none to police"
   },
-  "sentry": "NONE - not queried",
+  "sentry": "NONE - not queried (per routine config)",
   "uptime": "UNAVAILABLE - no UptimeRobot monitor exists for this site"
 }

@@ -1,0 +1,7 @@
+{
+  "run_date": "2026-09-21",
+  "findings": [],
+  "uptime": { "monitor_id": 803742553, "window": "2026-09-14/2026-09-21", "pct": 100, "coverage": "full", "incidents": [] },
+  "sentry": { "project": "arch-catering", "new_since_last_check": 0, "regressed_since_last_check": 0 },
+  "accreditation_violation_found": false
+}

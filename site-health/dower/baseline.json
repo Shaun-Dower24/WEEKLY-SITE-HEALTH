@@ -1,7 +1,7 @@
 {
   "site": "dower",
   "configured_url": "https://dowerdigital.co.uk",
-  "last_run": "2026-09-14",
+  "last_run": "2026-09-21",
   "pages": {
     "source": "AUTO - resolved from sitemap.xml (homepage + top 3 commercial pages by priority, capped at 4)",
     "list": ["/", "/web-design/", "/website-care/", "/seo/"],
@@ -55,6 +55,6 @@
   "accreditation_check": {
     "rule": "none to police"
   },
-  "sentry": "NONE - not queried",
+  "sentry": "NONE - not queried (per routine config)",
   "uptime": "UNAVAILABLE - no UptimeRobot monitor exists for this site"
 }
