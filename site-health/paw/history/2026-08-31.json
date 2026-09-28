@@ -1,0 +1,33 @@
+{
+  "site": "paw",
+  "configured_url": "https://positive-animal-wellbeing.netlify.app",
+  "last_run": "2026-08-31",
+  "pages_mode": "explicit",
+  "pages": [
+    {
+      "path": "/",
+      "url": "https://positive-animal-wellbeing.netlify.app/",
+      "statusCode": 200,
+      "title": "Canine Myotherapy & Class IV Laser Therapy — Costa del Sol",
+      "metaDescription": "Gentle Galen Myotherapy and Class IV Laser Therapy for dogs, in your own home from Estepona to Sotogrande. Qualified and fully insured.",
+      "canonical": "https://pawellbeing.com/",
+      "h1Count": 1,
+      "jsonLdTypes": ["Answer", "Audience", "EducationalOccupationalCredential", "FAQPage", "GeoCircle", "GeoCoordinates", "LocalBusiness", "Offer", "OpeningHoursSpecification", "Person", "Place", "PostalAddress", "PriceSpecification", "Question", "Quotation", "Service", "Thing", "WebSite"]
+    }
+  ],
+  "robots_txt": {
+    "present": true,
+    "sitemap_directive": "https://pawellbeing.com/sitemap.xml",
+    "blocks_ai_crawlers": false
+  },
+  "sitemap_xml": { "present": true, "domain": "pawellbeing.com" },
+  "llms_txt": { "present": true, "domain": "pawellbeing.com" },
+  "declared_canonical_domain": "pawellbeing.com",
+  "config_match": false,
+  "config_mismatch_note": "Configured url is the old Netlify subdomain; canonical tag, robots.txt Sitemap directive, sitemap.xml and llms.txt all declare pawellbeing.com as the real domain.",
+  "accreditation_check": { "rule": "none to police", "violation_found": false },
+  "sentry_project": null,
+  "sentry_status": "NONE - not configured for this site",
+  "uptime_monitor_id": null,
+  "uptime_status": "UPTIME_UNAVAILABLE - no UptimeRobot monitor exists for this site"
+}

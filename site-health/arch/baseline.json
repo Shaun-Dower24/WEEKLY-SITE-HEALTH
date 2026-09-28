@@ -1,0 +1,79 @@
+{
+  "site": "arch",
+  "configured_url": "https://archcateringandrefrigeration.co.uk",
+  "last_run": "2026-09-28",
+  "pages": {
+    "source": "explicit",
+    "list": ["/", "/commercial-dishwasher", "/contacts"],
+    "details": {
+      "/": {
+        "status": "ok",
+        "title": "Commercial Kitchen Specialists | Arch Catering",
+        "meta_description": "Installation, servicing and 24/7 reactive repairs for commercial kitchens across mainland UK. Preventative maintenance from qualified engineers.",
+        "canonical": "https://archcateringandrefrigeration.co.uk/",
+        "h1_count": 1,
+        "jsonld_types": ["LocalBusiness", "BreadcrumbList", "Service", "FAQPage"]
+      },
+      "/commercial-dishwasher": {
+        "status": "ok",
+        "title": "Commercial Dishwasher & Warewashing Repair UK | Arch",
+        "meta_description": "Dishwasher, glasswasher and warewashing repair, down to PCB and control board level. Hobart, Winterhalter, Classeq, Meiko. Mainland UK. Call 01438 878363.",
+        "canonical": "https://archcateringandrefrigeration.co.uk/commercial-dishwasher/",
+        "h1_count": 1,
+        "jsonld_types": ["LocalBusiness", "Service", "FAQPage", "BreadcrumbList", "HowTo"]
+      },
+      "/contacts": {
+        "status": "ok",
+        "title": "Contact Us | Arch Catering & Refrigeration Ltd",
+        "meta_description": "Get in touch for emergency repairs, tailored maintenance plans and equipment quotes.",
+        "canonical": "https://archcateringandrefrigeration.co.uk/contacts/",
+        "h1_count": 1,
+        "jsonld_types": ["LocalBusiness", "BreadcrumbList"]
+      }
+    }
+  },
+  "crawl_directives": {
+    "robots_txt": "present",
+    "robots_txt_sitemap_directive": "https://archcateringandrefrigeration.co.uk/sitemap.xml",
+    "robots_disallow_affects_target_bots": false,
+    "sitemap_xml": "present",
+    "llms_txt": "present"
+  },
+  "config_check": {
+    "configured_domain": "archcateringandrefrigeration.co.uk",
+    "declared_canonical_domain": "archcateringandrefrigeration.co.uk",
+    "match": true
+  },
+  "accreditation_check": {
+    "rule": "Holds NO industry accreditations (Gas Safe, F-Gas, NICEIC); engineers subcontracted. Claims are P1, service descriptions are not.",
+    "violation_found": false,
+    "notes": "Verified against raw page HTML (not just LLM extraction, which false-positived 'NICEIC approved' with no such text anywhere on any page). Every 'Gas Safe' / 'F-Gas' occurrence on all 3 pages describes either the named service (Gas Safety, F-Gas servicing) or subcontracted-engineer credentials ('Gas Safe registered gas engineers', 'F-Gas qualified refrigeration engineers') - never a claim that Arch itself holds the accreditation. No NICEIC mention found anywhere."
+  },
+  "sentry": {
+    "project": "arch-catering",
+    "new_since_last_check": 0,
+    "regressed_since_last_check": 0
+  },
+  "uptime": {
+    "monitor_id": 803742553,
+    "window": "2026-09-21/2026-09-28",
+    "pct": 99.85,
+    "coverage": "full",
+    "incidents": [
+      {
+        "id": "360441613379604132",
+        "started": "2026-09-21T15:06:17Z",
+        "duration": "10m 14s",
+        "reason": "Connection Timeout",
+        "status": "Resolved"
+      },
+      {
+        "id": "361587481457490784",
+        "started": "2026-09-24T18:59:33Z",
+        "duration": "5m 5s",
+        "reason": "Connection Timeout",
+        "status": "Resolved"
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "2026-09-28-arch-downtime-connection-timeouts",
+    "severity": "P1",
+    "found": "2026-09-28",
+    "summary": "UptimeRobot recorded two downtime incidents on the arch monitor since last run: 10m 14s starting 2026-09-21T15:06:17Z and 5m 5s starting 2026-09-24T18:59:33Z, both cause 'Connection Timeout'. Weekly uptime moved from 100% (0 incidents) to 99.85% (2 incidents, 15m 19s total). Both incidents self-resolved; UptimeRobot shows the monitor as UP with no ongoing issue.",
+    "status": "resolved",
+    "resolved": "2026-09-24",
+    "client_visible": true,
+    "client_wording": "Your website had two brief outages this week — about 10 minutes on 21 Sept and 5 minutes on 24 Sept, both connection timeouts. The site recovered on its own both times and has been up since."
+  }
+]

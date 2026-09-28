@@ -1,0 +1,10 @@
+{
+  "run_date": "2026-09-28",
+  "findings": ["2026-09-28-arch-downtime-connection-timeouts"],
+  "uptime": { "monitor_id": 803742553, "window": "2026-09-21/2026-09-28", "pct": 99.85, "coverage": "full", "incidents": [
+    { "id": "360441613379604132", "started": "2026-09-21T15:06:17Z", "duration": "10m 14s", "reason": "Connection Timeout", "status": "Resolved" },
+    { "id": "361587481457490784", "started": "2026-09-24T18:59:33Z", "duration": "5m 5s", "reason": "Connection Timeout", "status": "Resolved" }
+  ] },
+  "sentry": { "project": "arch-catering", "new_since_last_check": 0, "regressed_since_last_check": 0 },
+  "accreditation_violation_found": false
+}

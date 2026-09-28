@@ -1,0 +1,7 @@
+{
+  "run_date": "2026-09-28",
+  "findings": [],
+  "still_open": ["2026-09-14-paw-wrong-configured-host"],
+  "uptime": "UNAVAILABLE - no monitor",
+  "sentry": "NONE - not queried (per routine config)"
+}
