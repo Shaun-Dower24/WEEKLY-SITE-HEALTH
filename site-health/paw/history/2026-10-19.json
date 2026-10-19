@@ -1,0 +1,48 @@
+{
+  "site": "paw",
+  "configured_url": "https://positive-animal-wellbeing.netlify.app",
+  "captured": "2026-10-19",
+  "first_run": true,
+  "pages": [
+    {
+      "url": "/",
+      "status": 200,
+      "title": "Canine Myotherapy & Class IV Laser Therapy \u2014 Costa del Sol",
+      "meta_description": true,
+      "h1_count": 1,
+      "jsonld_types": [
+        "LocalBusiness",
+        "Person",
+        "EducationalOccupationalCredential",
+        "Service",
+        "WebSite",
+        "FAQPage",
+        "Quotation"
+      ],
+      "canonical": "https://pawellbeing.com/"
+    }
+  ],
+  "pages_resolved": null,
+  "robots": {
+    "status": 200,
+    "crawler_access": {
+      "Googlebot": "allowed",
+      "GPTBot": "allowed",
+      "ClaudeBot": "allowed",
+      "PerplexityBot": "allowed",
+      "GoogleOther": "allowed",
+      "CCBot": "allowed"
+    },
+    "sitemap_directive": "https://pawellbeing.com/sitemap.xml"
+  },
+  "sitemap_present": true,
+  "llms_txt_present": true,
+  "uptime": {
+    "source": "uptimerobot",
+    "monitor_id": 804322992,
+    "seven_day_pct": 100,
+    "coverage": "partial: ~18h (monitor created ~2026-10-18)",
+    "incidents_in_window": []
+  },
+  "notes": "Configured host redirects to https://pawellbeing.com (declared canonical). Content captured from the redirected host."
+}

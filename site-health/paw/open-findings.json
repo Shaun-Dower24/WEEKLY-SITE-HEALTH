@@ -1,0 +1,12 @@
+[
+  {
+    "id": "2026-10-19-config-wrong-host",
+    "severity": "P1",
+    "found": "2026-10-19",
+    "summary": "CONFIG: configured url https://positive-animal-wellbeing.netlify.app redirects to https://pawellbeing.com; canonical, robots Sitemap, sitemap.xml and llms.txt all declare pawellbeing.com. Routine is auditing the netlify alias. Corrected value: https://pawellbeing.com",
+    "status": "open",
+    "resolved": null,
+    "client_visible": false,
+    "client_wording": ""
+  }
+]
