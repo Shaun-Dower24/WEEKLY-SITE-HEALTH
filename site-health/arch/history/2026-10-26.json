@@ -1,0 +1,65 @@
+{
+  "run": "2026-10-26",
+  "baseline": {
+    "site": "arch",
+    "url": "https://archcateringandrefrigeration.co.uk",
+    "captured": "2026-10-26",
+    "pages": {
+      "/": {
+        "status": 200,
+        "title": "Commercial Kitchen Specialists | Arch Catering",
+        "meta_description": true,
+        "h1_count": 1,
+        "canonical": "https://archcateringandrefrigeration.co.uk/",
+        "jsonld": [
+          "LocalBusiness",
+          "BreadcrumbList",
+          "Service",
+          "FAQPage"
+        ]
+      },
+      "/commercial-dishwasher": {
+        "status": 200,
+        "title": "Commercial Dishwasher & Warewashing Repair UK | Arch",
+        "meta_description": true,
+        "h1_count": 1,
+        "canonical": "https://archcateringandrefrigeration.co.uk/commercial-dishwasher/",
+        "jsonld": [
+          "LocalBusiness",
+          "Service",
+          "FAQPage",
+          "BreadcrumbList",
+          "HowTo"
+        ]
+      },
+      "/contacts": {
+        "status": 200,
+        "title": "Contact Us | Arch Catering & Refrigeration Ltd",
+        "meta_description": true,
+        "h1_count": 1,
+        "canonical": "https://archcateringandrefrigeration.co.uk/contacts/",
+        "jsonld": [
+          "LocalBusiness",
+          "BreadcrumbList"
+        ]
+      }
+    },
+    "crawl": {
+      "robots": "present, no Disallow affecting Googlebot, GPTBot, ClaudeBot, PerplexityBot, GoogleOther, CCBot",
+      "llms_txt": "present",
+      "sitemap": "present"
+    }
+  },
+  "findings": [
+    {
+      "id": "2026-10-24-arch-downtime",
+      "severity": "P1",
+      "found": "2026-10-26",
+      "summary": "UptimeRobot downtime incident 2026-10-24 03:48:55Z, 5m05s, 'Connection Timeout' (single failed check, no region detail). Resolved 2026-10-24 03:54:00Z. Cause not evidenced.",
+      "status": "resolved",
+      "resolved": "2026-10-24",
+      "client_visible": true,
+      "client_wording": "The website was briefly unreachable for about 5 minutes in the early hours of Saturday 24 October and recovered on its own."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "2026-10-26-paw-config-wrong-host",
+    "severity": "P1",
+    "found": "2026-10-26",
+    "summary": "CONFIG: configured url https://positive-animal-wellbeing.netlify.app redirects to, and declares as canonical (canonical tag, robots.txt Sitemap, sitemap.xml, llms.txt), https://pawellbeing.com. Routine is auditing the netlify alias. UptimeRobot already monitors pawellbeing.com. Fix: set url to https://pawellbeing.com (pages [\"/\"]).",
+    "status": "open",
+    "resolved": null,
+    "client_visible": false,
+    "client_wording": ""
+  }
+]

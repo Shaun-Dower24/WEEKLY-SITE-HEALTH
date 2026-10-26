@@ -1,0 +1,12 @@
+[
+  {
+    "id": "2026-10-24-arch-downtime",
+    "severity": "P1",
+    "found": "2026-10-26",
+    "summary": "UptimeRobot downtime incident 2026-10-24 03:48:55Z, 5m05s, 'Connection Timeout' (single failed check, no region detail). Resolved 2026-10-24 03:54:00Z. Cause not evidenced.",
+    "status": "resolved",
+    "resolved": "2026-10-24",
+    "client_visible": true,
+    "client_wording": "The website was briefly unreachable for about 5 minutes in the early hours of Saturday 24 October and recovered on its own."
+  }
+]

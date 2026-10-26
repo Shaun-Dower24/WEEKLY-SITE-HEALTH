@@ -1,0 +1,50 @@
+{
+  "site": "arch",
+  "url": "https://archcateringandrefrigeration.co.uk",
+  "captured": "2026-10-26",
+  "pages": {
+    "/": {
+      "status": 200,
+      "title": "Commercial Kitchen Specialists | Arch Catering",
+      "meta_description": true,
+      "h1_count": 1,
+      "canonical": "https://archcateringandrefrigeration.co.uk/",
+      "jsonld": [
+        "LocalBusiness",
+        "BreadcrumbList",
+        "Service",
+        "FAQPage"
+      ]
+    },
+    "/commercial-dishwasher": {
+      "status": 200,
+      "title": "Commercial Dishwasher & Warewashing Repair UK | Arch",
+      "meta_description": true,
+      "h1_count": 1,
+      "canonical": "https://archcateringandrefrigeration.co.uk/commercial-dishwasher/",
+      "jsonld": [
+        "LocalBusiness",
+        "Service",
+        "FAQPage",
+        "BreadcrumbList",
+        "HowTo"
+      ]
+    },
+    "/contacts": {
+      "status": 200,
+      "title": "Contact Us | Arch Catering & Refrigeration Ltd",
+      "meta_description": true,
+      "h1_count": 1,
+      "canonical": "https://archcateringandrefrigeration.co.uk/contacts/",
+      "jsonld": [
+        "LocalBusiness",
+        "BreadcrumbList"
+      ]
+    }
+  },
+  "crawl": {
+    "robots": "present, no Disallow affecting Googlebot, GPTBot, ClaudeBot, PerplexityBot, GoogleOther, CCBot",
+    "llms_txt": "present",
+    "sitemap": "present"
+  }
+}
