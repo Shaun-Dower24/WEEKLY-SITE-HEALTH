@@ -1,0 +1,62 @@
+{
+  "site": "arch",
+  "captured": "2026-11-02",
+  "url": "https://archcateringandrefrigeration.co.uk",
+  "declared_domain": "archcateringandrefrigeration.co.uk",
+  "resolved_pages": [
+    "/",
+    "/commercial-dishwasher",
+    "/contacts"
+  ],
+  "pages": [
+    {
+      "path": "/",
+      "status": 200,
+      "title": "Commercial Kitchen Specialists | Arch Catering",
+      "meta_description": "Installation, servicing and 24/7 reactive repairs for commercial kitchens across mainland UK. Preventative maintenance from qualified engineers.",
+      "h1_count": 1,
+      "jsonld_types": [
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "LocalBusiness",
+        "Service"
+      ],
+      "canonical": "https://archcateringandrefrigeration.co.uk/"
+    },
+    {
+      "path": "/commercial-dishwasher",
+      "status": 200,
+      "title": "Commercial Dishwasher & Warewashing Repair UK | Arch",
+      "meta_description": "Dishwasher, glasswasher and warewashing repair, down to PCB and control board level. Hobart, Winterhalter, Classeq, Meiko. Mainland UK. Call 01438 878363.",
+      "h1_count": 1,
+      "jsonld_types": [
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "HowTo",
+        "LocalBusiness",
+        "Service"
+      ],
+      "canonical": "https://archcateringandrefrigeration.co.uk/commercial-dishwasher/"
+    },
+    {
+      "path": "/contacts",
+      "status": 200,
+      "title": "Contact Us | Arch Catering & Refrigeration Ltd",
+      "meta_description": "Get in touch for emergency repairs, tailored maintenance plans and equipment quotes.",
+      "h1_count": 1,
+      "jsonld_types": [
+        "BreadcrumbList",
+        "ContactPoint",
+        "LocalBusiness"
+      ],
+      "canonical": "https://archcateringandrefrigeration.co.uk/contacts/"
+    }
+  ],
+  "crawl": {
+    "robots": "present; no Disallow affecting Googlebot/GPTBot/ClaudeBot/PerplexityBot/GoogleOther/CCBot",
+    "llms_txt": true,
+    "sitemap_xml": true
+  }
+}

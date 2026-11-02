@@ -1,0 +1,32 @@
+{
+  "site": "paw",
+  "captured": "2026-11-02",
+  "url": "https://positive-animal-wellbeing.netlify.app",
+  "declared_domain": "pawellbeing.com",
+  "resolved_pages": [
+    "/"
+  ],
+  "pages": [
+    {
+      "path": "/",
+      "status": 200,
+      "title": "Canine Myotherapy & Class IV Laser Therapy \u2014 Costa del Sol",
+      "meta_description": "Gentle Galen Myotherapy and Class IV Laser Therapy for dogs, in your own home from Estepona to Sotogrande. Qualified and fully insured.",
+      "h1_count": 1,
+      "jsonld_types": [
+        "EducationalOccupationalCredential",
+        "FAQPage",
+        "LocalBusiness",
+        "Person",
+        "Service",
+        "WebSite"
+      ],
+      "canonical": "https://pawellbeing.com/"
+    }
+  ],
+  "crawl": {
+    "robots": "present; no Disallow affecting Googlebot/GPTBot/ClaudeBot/PerplexityBot/GoogleOther/CCBot",
+    "llms_txt": true,
+    "sitemap_xml": true
+  }
+}

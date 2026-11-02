@@ -1,0 +1,58 @@
+{
+  "run": "2026-11-02",
+  "first_run": true,
+  "baseline": {
+    "site": "paw",
+    "captured": "2026-11-02",
+    "url": "https://positive-animal-wellbeing.netlify.app",
+    "declared_domain": "pawellbeing.com",
+    "resolved_pages": [
+      "/"
+    ],
+    "pages": [
+      {
+        "path": "/",
+        "status": 200,
+        "title": "Canine Myotherapy & Class IV Laser Therapy \u2014 Costa del Sol",
+        "meta_description": "Gentle Galen Myotherapy and Class IV Laser Therapy for dogs, in your own home from Estepona to Sotogrande. Qualified and fully insured.",
+        "h1_count": 1,
+        "jsonld_types": [
+          "EducationalOccupationalCredential",
+          "FAQPage",
+          "LocalBusiness",
+          "Person",
+          "Service",
+          "WebSite"
+        ],
+        "canonical": "https://pawellbeing.com/"
+      }
+    ],
+    "crawl": {
+      "robots": "present; no Disallow affecting Googlebot/GPTBot/ClaudeBot/PerplexityBot/GoogleOther/CCBot",
+      "llms_txt": true,
+      "sitemap_xml": true
+    }
+  },
+  "findings": [
+    {
+      "id": "2026-11-02-paw-config-wrong-host",
+      "severity": "P1",
+      "found": "2026-11-02",
+      "summary": "CONFIG: configured url positive-animal-wellbeing.netlify.app redirects to and declares pawellbeing.com (canonical, robots Sitemap, sitemap.xml, llms.txt). Routine audits an alias. Set url to https://pawellbeing.com.",
+      "status": "open",
+      "resolved": null,
+      "client_visible": false,
+      "client_wording": "n/a (internal routine configuration)"
+    },
+    {
+      "id": "2026-10-28-paw-downtime",
+      "severity": "P1",
+      "found": "2026-11-02",
+      "summary": "UptimeRobot (pawellbeing.com) downtime 2026-10-28T12:57:14Z, 5m5s, Connection Timeout. Resolved. Cause not evidenced.",
+      "status": "resolved",
+      "resolved": "2026-11-02",
+      "client_visible": true,
+      "client_wording": "The website was briefly unreachable for about 5 minutes on Wednesday 28 October and recovered on its own."
+    }
+  ]
+}
