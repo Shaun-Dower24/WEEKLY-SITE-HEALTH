@@ -1,0 +1,80 @@
+{
+  "run": "2026-11-09",
+  "baseline": {
+    "site": "dower",
+    "captured": "2026-11-09",
+    "url": "https://dowerdigital.co.uk",
+    "declared_domain": "dowerdigital.co.uk",
+    "resolved_pages": [
+      "/",
+      "/web-design/",
+      "/business-systems/",
+      "/website-care/"
+    ],
+    "pages": [
+      {
+        "path": "/",
+        "status": 200,
+        "title": "Dower Digital — Websites, Business Systems & SEO from Stevenage",
+        "meta_description": "Custom websites, booking and business systems, website care and managed SEO. Built around your business and delivered directly by Shaun in Stevenage.",
+        "h1_count": 1,
+        "jsonld_types": [
+          "FAQPage",
+          "Offer",
+          "OfferCatalog",
+          "Person",
+          "ProfessionalService",
+          "Service",
+          "WebSite"
+        ],
+        "canonical": "https://dowerdigital.co.uk/"
+      },
+      {
+        "path": "/web-design/",
+        "status": 200,
+        "title": "Custom Website Design & Development | Dower Digital",
+        "meta_description": "Custom, high-performance websites built around your goals — fixed price from £1,000, typically 4–6 weeks. SEO and AEO-ready from day one. UK-wide and remote.",
+        "h1_count": 1,
+        "jsonld_types": [
+          "BreadcrumbList",
+          "Offer",
+          "Service"
+        ],
+        "canonical": "https://dowerdigital.co.uk/web-design/"
+      },
+      {
+        "path": "/business-systems/",
+        "status": 200,
+        "title": "Custom Booking & Business Systems | Dower Digital",
+        "meta_description": "Custom booking systems, customer accounts, memberships and staff tools built around your business. Delivered directly by Shaun. Fixed quote after discovery.",
+        "h1_count": 1,
+        "jsonld_types": [
+          "BreadcrumbList",
+          "FAQPage",
+          "Service"
+        ],
+        "canonical": "https://dowerdigital.co.uk/business-systems/"
+      },
+      {
+        "path": "/website-care/",
+        "status": 200,
+        "title": "Monthly Website Care & Maintenance Plans | Dower Digital",
+        "meta_description": "Managed hosting, security, backups, updates and priority support from £100/month. Keep your website secure, current and fast without lifting a finger. Stevenage, UK-wide.",
+        "h1_count": 1,
+        "jsonld_types": [
+          "BreadcrumbList",
+          "Offer",
+          "Service"
+        ],
+        "canonical": "https://dowerdigital.co.uk/website-care/"
+      }
+    ],
+    "crawl": {
+      "robots": "present; no Disallow affecting Googlebot/GPTBot/ClaudeBot/PerplexityBot/GoogleOther/CCBot",
+      "llms_txt": true,
+      "sitemap_xml": true
+    }
+  },
+  "findings_new": [],
+  "notes": "no changes vs 2026-11-02; no downtime in 7d"
+}
