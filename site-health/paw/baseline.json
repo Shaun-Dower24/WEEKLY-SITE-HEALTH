@@ -1,6 +1,6 @@
 {
   "site": "paw",
-  "captured": "2026-11-09",
+  "captured": "2026-11-16",
   "url": "https://positive-animal-wellbeing.netlify.app",
   "declared_domain": "pawellbeing.com",
   "resolved_pages": [
@@ -21,7 +21,8 @@
         "Service",
         "WebSite"
       ],
-      "canonical": "https://pawellbeing.com/"
+      "canonical": "https://pawellbeing.com/",
+      "final_url": "https://pawellbeing.com/"
     }
   ],
   "crawl": {
